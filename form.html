@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <script>
+        function myFunction() {
+            alert("I am an alert box!");
+        }
+     </script>   
+
+</head>
+<body>
+
+<form action="http://server.php" method="POST">
+
+    <table border="1" cellpadding="5" cellspacing="3">
+
+        <tr>
+            <td>Enter Firstname</td>
+            <td>  <input type="text" name="FirstName" id="FirstName"> </td>
+        </tr>
+
+        <tr>
+            <td>Enter Lastname</td>
+            <td> <input type="text" name="Lastname"></td>
+        </tr>
+         
+        
+        <tr>
+            <td>Email Add</td>
+            <td> <input type="email" name="Email"></td>
+        </tr>
+
+
+        <tr>
+            <td>Birthday</td>
+            <td> <input type="date" name="birthday"></td>
+        </tr>
+        
+
+
+        <tr>
+            <td>Address </td>
+            <td> <textarea name="Address" id="" cols="20" rows="5"></textarea></td>
+        </tr>
+        
+
+        <tr>
+            <td>Gender </td>
+            <td> 
+                <input type="radio" value="Male" name="gender"> Male
+                <br />
+                <input type="radio" value="Female" name="gender"> Female
+              
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>Favourite Colours </td>
+            <td> 
+                <input type="checkbox" value="gree" name="colors"> Green
+                <br />
+                <input type="checkbox" value="red" name="colors"> Red
+                <br />
+                <input type="checkbox" value="blue" name="colors"> B;ue
+             
+            </td>
+        </tr>
+
+        <tr>
+            <td> Colours </td>
+            <td> 
+                <input type="color" name="color">
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td> Date-Local </td>
+            <td> 
+                <input type="datetime-local" name="dateTime">
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td> File </td>
+            <td> 
+                <input type="file" name="file">
+                
+            </td>
+        </tr>
+
+
+        <tr>
+            <td> Image file </td>
+            <td> 
+                <input type="image" width="50" src="https://internetmarketingtips985.files.wordpress.com/2015/11/online.jpg" name="image">
+                
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td> Hidden field </td>
+            <td> 
+              
+                <input type="hidden" name="mysecretCode" value="4756745698">
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td> Month </td>
+            <td> 
+              
+                <input type="month" name="myMonth">
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td> Number </td>
+            <td> 
+                <input type="number" name="myNumber">
+                
+            </td>
+        </tr>
+
+        
+        <tr>
+            <td> Password </td>
+            <td> 
+                <input type="password" name="mypassword">
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td> Tel </td>
+            <td> 
+                <input type="tel" name="myTel">
+            </td>
+        </tr>
+
+        <tr>
+            <td> Url </td>
+            <td> 
+                <input type="url" name="myUrl">
+            </td>
+        </tr>
+
+        
+        <tr>
+            <td> Week </td>
+            <td> 
+                <input type="week" name="myUrl">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td> Time </td>
+            <td> 
+                <input type="time" name="myTime">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td> Typical Button </td>
+            <td> 
+                <input onclick="myFunction()" type="button" name="myTime" value="click Me">
+            </td>
+        </tr>
+
+        
+        
+
+    </table>
+
+    <input type="submit" name="submit" value="Send To Server">
+
+</form>
+
+    
+</body>
+</html>
